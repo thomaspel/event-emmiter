@@ -98,6 +98,7 @@ var fn = console.log.bind(console);
 /*EventEmitter()
   .times('event1', 3, fn)
   .on('event2', function(x) { fn(x + 2); })
+  .once('event1', fn)
   .emit('event1', 'coucou', 'test32', 'lol')
   .emit('event1', 'coucou', 'test32', 'lol')
   .emit('event1', 'coucou', 'test32', 'lol')
